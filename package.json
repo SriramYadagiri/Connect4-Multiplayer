@@ -1,0 +1,27 @@
+{
+  "name": "connect4-multiplayer",
+  "version": "1.0.0",
+  "description": "Multiplayer Connect Four Game",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server",
+    "start": "node server"
+  },
+  "keywords": [
+    "sockets",
+    "socket.io",
+    "connect4",
+    "multiplayer",
+    "nodejs",
+    "express"
+  ],
+  "author": "Sriram Yadagiri",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.0",
+    "socket.io": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
